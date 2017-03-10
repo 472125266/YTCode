@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2983D36785FB89171D043FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2D89064E7597607A9494D3 /* libPods.a */; };
+		C34958C11C7B46A70071740E /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C34958C01C7B46A70071740E /* Common.m */; };
+		C37742A61C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = C37742A51C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.m */; };
+		C3D549531C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D549511C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.m */; };
+		C3D549541C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D549521C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.xib */; };
+		C3FCD3261C7B23BB0042B471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3251C7B23BB0042B471 /* main.m */; };
+		C3FCD3291C7B23BC0042B471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3281C7B23BC0042B471 /* AppDelegate.m */; };
+		C3FCD32F1C7B23BC0042B471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD32D1C7B23BC0042B471 /* Main.storyboard */; };
+		C3FCD3311C7B23BC0042B471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3301C7B23BC0042B471 /* Assets.xcassets */; };
+		C3FCD3341C7B23BC0042B471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3321C7B23BC0042B471 /* LaunchScreen.storyboard */; };
+		C3FCD33F1C7B23BC0042B471 /* _____APP_YTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD33E1C7B23BC0042B471 /* _____APP_YTTests.m */; };
+		C3FCD34A1C7B23BC0042B471 /* _____APP_YTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3491C7B23BC0042B471 /* _____APP_YTUITests.m */; };
+		C3FCD3611C7B271D0042B471 /* CPF_ProvideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD35F1C7B271D0042B471 /* CPF_ProvideViewController.m */; };
+		C3FCD3621C7B271D0042B471 /* CPF_ProvideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3601C7B271D0042B471 /* CPF_ProvideViewController.xib */; };
+		C3FCD3661C7B27320042B471 /* Trade_ProvideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3641C7B27320042B471 /* Trade_ProvideViewController.m */; };
+		C3FCD3671C7B27320042B471 /* Trade_ProvideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3651C7B27320042B471 /* Trade_ProvideViewController.xib */; };
+		C3FCD36B1C7B27A60042B471 /* Combination_ProvideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3691C7B27A60042B471 /* Combination_ProvideViewController.m */; };
+		C3FCD36C1C7B27A60042B471 /* Combination_ProvideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD36A1C7B27A60042B471 /* Combination_ProvideViewController.xib */; };
+		C3FCD3731C7B27E50042B471 /* Set_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3711C7B27E50042B471 /* Set_ViewController.m */; };
+		C3FCD3741C7B27E50042B471 /* Set_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3721C7B27E50042B471 /* Set_ViewController.xib */; };
+		C3FCD3831C7B2E490042B471 /* PublicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3811C7B2E490042B471 /* PublicTableViewCell.m */; };
+		C3FCD3841C7B2E490042B471 /* PublicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3821C7B2E490042B471 /* PublicTableViewCell.xib */; };
+		C3FCD3881C7B2F1A0042B471 /* Refund_PublicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FCD3861C7B2F1A0042B471 /* Refund_PublicTableViewCell.m */; };
+		C3FCD3891C7B2F1A0042B471 /* Refund_PublicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCD3871C7B2F1A0042B471 /* Refund_PublicTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3FCD33B1C7B23BC0042B471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FCD3191C7B23BB0042B471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FCD3201C7B23BB0042B471;
+			remoteInfo = "房贷计算器APP－YT";
+		};
+		C3FCD3461C7B23BC0042B471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FCD3191C7B23BB0042B471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FCD3201C7B23BB0042B471;
+			remoteInfo = "房贷计算器APP－YT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36D36CA3318D6E4FFB0613A9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3C2D89064E7597607A9494D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE74A4626DB49F983567EBD5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C34958BF1C7B46A70071740E /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C34958C01C7B46A70071740E /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		C37742A41C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+UITableVIew_UITouch.h"; path = "../宏定义/UITableView+UITableVIew_UITouch.h"; sourceTree = "<group>"; };
+		C37742A51C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+UITableVIew_UITouch.m"; path = "../宏定义/UITableView+UITableVIew_UITouch.m"; sourceTree = "<group>"; };
+		C3D549501C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPF_Custom_1TableViewCell.h; path = "../../公积金贷款/公积金订制单元格/CPF_Custom_1TableViewCell.h"; sourceTree = "<group>"; };
+		C3D549511C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPF_Custom_1TableViewCell.m; path = "../../公积金贷款/公积金订制单元格/CPF_Custom_1TableViewCell.m"; sourceTree = "<group>"; };
+		C3D549521C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CPF_Custom_1TableViewCell.xib; path = "../../公积金贷款/公积金订制单元格/CPF_Custom_1TableViewCell.xib"; sourceTree = "<group>"; };
+		C3FCD3211C7B23BB0042B471 /* 房贷计算器APP－YT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "房贷计算器APP－YT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FCD3251C7B23BB0042B471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3FCD3271C7B23BC0042B471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3FCD3281C7B23BC0042B471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3FCD32E1C7B23BC0042B471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3FCD3301C7B23BC0042B471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3FCD3331C7B23BC0042B471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3FCD3351C7B23BC0042B471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FCD33A1C7B23BC0042B471 /* 房贷计算器APP－YTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "房贷计算器APP－YTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FCD33E1C7B23BC0042B471 /* _____APP_YTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____APP_YTTests.m"; sourceTree = "<group>"; };
+		C3FCD3401C7B23BC0042B471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FCD3451C7B23BC0042B471 /* 房贷计算器APP－YTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "房贷计算器APP－YTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FCD3491C7B23BC0042B471 /* _____APP_YTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____APP_YTUITests.m"; sourceTree = "<group>"; };
+		C3FCD34B1C7B23BC0042B471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FCD35E1C7B271D0042B471 /* CPF_ProvideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPF_ProvideViewController.h; path = ../CPF_ProvideViewController.h; sourceTree = "<group>"; };
+		C3FCD35F1C7B271D0042B471 /* CPF_ProvideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPF_ProvideViewController.m; path = ../CPF_ProvideViewController.m; sourceTree = "<group>"; };
+		C3FCD3601C7B271D0042B471 /* CPF_ProvideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CPF_ProvideViewController.xib; path = ../CPF_ProvideViewController.xib; sourceTree = "<group>"; };
+		C3FCD3631C7B27320042B471 /* Trade_ProvideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trade_ProvideViewController.h; path = ../Trade_ProvideViewController.h; sourceTree = "<group>"; };
+		C3FCD3641C7B27320042B471 /* Trade_ProvideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trade_ProvideViewController.m; path = ../Trade_ProvideViewController.m; sourceTree = "<group>"; };
+		C3FCD3651C7B27320042B471 /* Trade_ProvideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Trade_ProvideViewController.xib; path = ../Trade_ProvideViewController.xib; sourceTree = "<group>"; };
+		C3FCD3681C7B27A60042B471 /* Combination_ProvideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Combination_ProvideViewController.h; path = ../Combination_ProvideViewController.h; sourceTree = "<group>"; };
+		C3FCD3691C7B27A60042B471 /* Combination_ProvideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Combination_ProvideViewController.m; path = ../Combination_ProvideViewController.m; sourceTree = "<group>"; };
+		C3FCD36A1C7B27A60042B471 /* Combination_ProvideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Combination_ProvideViewController.xib; path = ../Combination_ProvideViewController.xib; sourceTree = "<group>"; };
+		C3FCD3701C7B27E50042B471 /* Set_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Set_ViewController.h; path = ../Set_ViewController.h; sourceTree = "<group>"; };
+		C3FCD3711C7B27E50042B471 /* Set_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Set_ViewController.m; path = ../Set_ViewController.m; sourceTree = "<group>"; };
+		C3FCD3721C7B27E50042B471 /* Set_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Set_ViewController.xib; path = ../Set_ViewController.xib; sourceTree = "<group>"; };
+		C3FCD3801C7B2E490042B471 /* PublicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicTableViewCell.h; path = ../PublicTableViewCell.h; sourceTree = "<group>"; };
+		C3FCD3811C7B2E490042B471 /* PublicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublicTableViewCell.m; path = ../PublicTableViewCell.m; sourceTree = "<group>"; };
+		C3FCD3821C7B2E490042B471 /* PublicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PublicTableViewCell.xib; path = ../PublicTableViewCell.xib; sourceTree = "<group>"; };
+		C3FCD3851C7B2F1A0042B471 /* Refund_PublicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Refund_PublicTableViewCell.h; path = ../Refund_PublicTableViewCell.h; sourceTree = "<group>"; };
+		C3FCD3861C7B2F1A0042B471 /* Refund_PublicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Refund_PublicTableViewCell.m; path = ../Refund_PublicTableViewCell.m; sourceTree = "<group>"; };
+		C3FCD3871C7B2F1A0042B471 /* Refund_PublicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Refund_PublicTableViewCell.xib; path = ../Refund_PublicTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FCD31E1C7B23BB0042B471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2983D36785FB89171D043FE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCD3371C7B23BC0042B471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCD3421C7B23BC0042B471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B2F2CEE1F2276304C3B9C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D89064E7597607A9494D3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54AA60DBA0AF3ECE3FF722B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE74A4626DB49F983567EBD5 /* Pods.debug.xcconfig */,
+				36D36CA3318D6E4FFB0613A9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C34958BE1C7B46820071740E /* 宏定义 */ = {
+			isa = PBXGroup;
+			children = (
+				C34958BF1C7B46A70071740E /* Common.h */,
+				C34958C01C7B46A70071740E /* Common.m */,
+			);
+			path = "宏定义";
+			sourceTree = "<group>";
+		};
+		C37742A71C7F0494002B20C7 /* TableView点击手势Category */ = {
+			isa = PBXGroup;
+			children = (
+				C37742A41C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.h */,
+				C37742A51C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.m */,
+			);
+			path = "TableView点击手势Category";
+			sourceTree = "<group>";
+		};
+		C3FAC06A1C7EC55D00DCE725 /* 带TextField的自定义单元格 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3801C7B2E490042B471 /* PublicTableViewCell.h */,
+				C3FCD3811C7B2E490042B471 /* PublicTableViewCell.m */,
+				C3FCD3821C7B2E490042B471 /* PublicTableViewCell.xib */,
+			);
+			path = "带TextField的自定义单元格";
+			sourceTree = "<group>";
+		};
+		C3FAC06B1C7EC57A00DCE725 /* 带分段控制器的自定义单元格 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3851C7B2F1A0042B471 /* Refund_PublicTableViewCell.h */,
+				C3FCD3861C7B2F1A0042B471 /* Refund_PublicTableViewCell.m */,
+				C3FCD3871C7B2F1A0042B471 /* Refund_PublicTableViewCell.xib */,
+			);
+			path = "带分段控制器的自定义单元格";
+			sourceTree = "<group>";
+		};
+		C3FAC06C1C7EC59400DCE725 /* 两个Label的自定义单元格 */ = {
+			isa = PBXGroup;
+			children = (
+				C3D549501C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.h */,
+				C3D549511C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.m */,
+				C3D549521C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.xib */,
+			);
+			path = "两个Label的自定义单元格";
+			sourceTree = "<group>";
+		};
+		C3FCD3181C7B23BB0042B471 = {
+			isa = PBXGroup;
+			children = (
+				C34958BE1C7B46820071740E /* 宏定义 */,
+				C37742A71C7F0494002B20C7 /* TableView点击手势Category */,
+				C3FCD35A1C7B26980042B471 /* 分栏各个界面 */,
+				C3FCD3231C7B23BB0042B471 /* 房贷计算器APP－YT */,
+				C3FCD33D1C7B23BC0042B471 /* 房贷计算器APP－YTTests */,
+				C3FCD3481C7B23BC0042B471 /* 房贷计算器APP－YTUITests */,
+				C3FCD3221C7B23BB0042B471 /* Products */,
+				54AA60DBA0AF3ECE3FF722B8 /* Pods */,
+				4B2F2CEE1F2276304C3B9C58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3FCD3221C7B23BB0042B471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3211C7B23BB0042B471 /* 房贷计算器APP－YT.app */,
+				C3FCD33A1C7B23BC0042B471 /* 房贷计算器APP－YTTests.xctest */,
+				C3FCD3451C7B23BC0042B471 /* 房贷计算器APP－YTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FCD3231C7B23BB0042B471 /* 房贷计算器APP－YT */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3271C7B23BC0042B471 /* AppDelegate.h */,
+				C3FCD3281C7B23BC0042B471 /* AppDelegate.m */,
+				C3FCD32D1C7B23BC0042B471 /* Main.storyboard */,
+				C3FCD3301C7B23BC0042B471 /* Assets.xcassets */,
+				C3FCD3321C7B23BC0042B471 /* LaunchScreen.storyboard */,
+				C3FCD3351C7B23BC0042B471 /* Info.plist */,
+				C3FCD3241C7B23BB0042B471 /* Supporting Files */,
+			);
+			path = "房贷计算器APP－YT";
+			sourceTree = "<group>";
+		};
+		C3FCD3241C7B23BB0042B471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3251C7B23BB0042B471 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3FCD33D1C7B23BC0042B471 /* 房贷计算器APP－YTTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD33E1C7B23BC0042B471 /* _____APP_YTTests.m */,
+				C3FCD3401C7B23BC0042B471 /* Info.plist */,
+			);
+			path = "房贷计算器APP－YTTests";
+			sourceTree = "<group>";
+		};
+		C3FCD3481C7B23BC0042B471 /* 房贷计算器APP－YTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3491C7B23BC0042B471 /* _____APP_YTUITests.m */,
+				C3FCD34B1C7B23BC0042B471 /* Info.plist */,
+			);
+			path = "房贷计算器APP－YTUITests";
+			sourceTree = "<group>";
+		};
+		C3FCD35A1C7B26980042B471 /* 分栏各个界面 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD37F1C7B2E160042B471 /* 公共订制单元格 */,
+				C3FCD3751C7B2CD20042B471 /* 公积金贷款 */,
+				C3FCD3761C7B2CE60042B471 /* 商业贷款 */,
+				C3FCD3771C7B2CF60042B471 /* 组合贷款 */,
+				C3FCD3781C7B2D000042B471 /* 设置 */,
+			);
+			path = "分栏各个界面";
+			sourceTree = "<group>";
+		};
+		C3FCD3751C7B2CD20042B471 /* 公积金贷款 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD35E1C7B271D0042B471 /* CPF_ProvideViewController.h */,
+				C3FCD35F1C7B271D0042B471 /* CPF_ProvideViewController.m */,
+				C3FCD3601C7B271D0042B471 /* CPF_ProvideViewController.xib */,
+			);
+			path = "公积金贷款";
+			sourceTree = "<group>";
+		};
+		C3FCD3761C7B2CE60042B471 /* 商业贷款 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3631C7B27320042B471 /* Trade_ProvideViewController.h */,
+				C3FCD3641C7B27320042B471 /* Trade_ProvideViewController.m */,
+				C3FCD3651C7B27320042B471 /* Trade_ProvideViewController.xib */,
+			);
+			path = "商业贷款";
+			sourceTree = "<group>";
+		};
+		C3FCD3771C7B2CF60042B471 /* 组合贷款 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3681C7B27A60042B471 /* Combination_ProvideViewController.h */,
+				C3FCD3691C7B27A60042B471 /* Combination_ProvideViewController.m */,
+				C3FCD36A1C7B27A60042B471 /* Combination_ProvideViewController.xib */,
+			);
+			path = "组合贷款";
+			sourceTree = "<group>";
+		};
+		C3FCD3781C7B2D000042B471 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCD3701C7B27E50042B471 /* Set_ViewController.h */,
+				C3FCD3711C7B27E50042B471 /* Set_ViewController.m */,
+				C3FCD3721C7B27E50042B471 /* Set_ViewController.xib */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		C3FCD37F1C7B2E160042B471 /* 公共订制单元格 */ = {
+			isa = PBXGroup;
+			children = (
+				C3FAC06A1C7EC55D00DCE725 /* 带TextField的自定义单元格 */,
+				C3FAC06B1C7EC57A00DCE725 /* 带分段控制器的自定义单元格 */,
+				C3FAC06C1C7EC59400DCE725 /* 两个Label的自定义单元格 */,
+			);
+			path = "公共订制单元格";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3FCD3201C7B23BB0042B471 /* 房贷计算器APP－YT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FCD34E1C7B23BC0042B471 /* Build configuration list for PBXNativeTarget "房贷计算器APP－YT" */;
+			buildPhases = (
+				984111C53BB48140FDC22E72 /* Check Pods Manifest.lock */,
+				C3FCD31D1C7B23BB0042B471 /* Sources */,
+				C3FCD31E1C7B23BB0042B471 /* Frameworks */,
+				C3FCD31F1C7B23BB0042B471 /* Resources */,
+				1B60A04494AB223040E7EBA2 /* Embed Pods Frameworks */,
+				3E1AFDB93B552B3B267C8E36 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "房贷计算器APP－YT";
+			productName = "房贷计算器APP－YT";
+			productReference = C3FCD3211C7B23BB0042B471 /* 房贷计算器APP－YT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FCD3391C7B23BC0042B471 /* 房贷计算器APP－YTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FCD3511C7B23BC0042B471 /* Build configuration list for PBXNativeTarget "房贷计算器APP－YTTests" */;
+			buildPhases = (
+				C3FCD3361C7B23BC0042B471 /* Sources */,
+				C3FCD3371C7B23BC0042B471 /* Frameworks */,
+				C3FCD3381C7B23BC0042B471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FCD33C1C7B23BC0042B471 /* PBXTargetDependency */,
+			);
+			name = "房贷计算器APP－YTTests";
+			productName = "房贷计算器APP－YTTests";
+			productReference = C3FCD33A1C7B23BC0042B471 /* 房贷计算器APP－YTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3FCD3441C7B23BC0042B471 /* 房贷计算器APP－YTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FCD3541C7B23BC0042B471 /* Build configuration list for PBXNativeTarget "房贷计算器APP－YTUITests" */;
+			buildPhases = (
+				C3FCD3411C7B23BC0042B471 /* Sources */,
+				C3FCD3421C7B23BC0042B471 /* Frameworks */,
+				C3FCD3431C7B23BC0042B471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FCD3471C7B23BC0042B471 /* PBXTargetDependency */,
+			);
+			name = "房贷计算器APP－YTUITests";
+			productName = "房贷计算器APP－YTUITests";
+			productReference = C3FCD3451C7B23BC0042B471 /* 房贷计算器APP－YTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3FCD3191C7B23BB0042B471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "码农教育12";
+				TargetAttributes = {
+					C3FCD3201C7B23BB0042B471 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Z2S27F9S86;
+					};
+					C3FCD3391C7B23BC0042B471 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C3FCD3201C7B23BB0042B471;
+					};
+					C3FCD3441C7B23BC0042B471 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C3FCD3201C7B23BB0042B471;
+					};
+				};
+			};
+			buildConfigurationList = C3FCD31C1C7B23BB0042B471 /* Build configuration list for PBXProject "房贷计算器APP－YT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				pt,
+				"ru-RU",
+				ru,
+				sv,
+			);
+			mainGroup = C3FCD3181C7B23BB0042B471;
+			productRefGroup = C3FCD3221C7B23BB0042B471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3FCD3201C7B23BB0042B471 /* 房贷计算器APP－YT */,
+				C3FCD3391C7B23BC0042B471 /* 房贷计算器APP－YTTests */,
+				C3FCD3441C7B23BC0042B471 /* 房贷计算器APP－YTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3FCD31F1C7B23BB0042B471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCD3891C7B2F1A0042B471 /* Refund_PublicTableViewCell.xib in Resources */,
+				C3FCD3341C7B23BC0042B471 /* LaunchScreen.storyboard in Resources */,
+				C3FCD3311C7B23BC0042B471 /* Assets.xcassets in Resources */,
+				C3FCD3841C7B2E490042B471 /* PublicTableViewCell.xib in Resources */,
+				C3D549541C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.xib in Resources */,
+				C3FCD36C1C7B27A60042B471 /* Combination_ProvideViewController.xib in Resources */,
+				C3FCD3671C7B27320042B471 /* Trade_ProvideViewController.xib in Resources */,
+				C3FCD3621C7B271D0042B471 /* CPF_ProvideViewController.xib in Resources */,
+				C3FCD3741C7B27E50042B471 /* Set_ViewController.xib in Resources */,
+				C3FCD32F1C7B23BC0042B471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCD3381C7B23BC0042B471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCD3431C7B23BC0042B471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B60A04494AB223040E7EBA2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1AFDB93B552B3B267C8E36 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984111C53BB48140FDC22E72 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FCD31D1C7B23BB0042B471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34958C11C7B46A70071740E /* Common.m in Sources */,
+				C3FCD3881C7B2F1A0042B471 /* Refund_PublicTableViewCell.m in Sources */,
+				C3FCD3291C7B23BC0042B471 /* AppDelegate.m in Sources */,
+				C3FCD3831C7B2E490042B471 /* PublicTableViewCell.m in Sources */,
+				C3D549531C7B397B006FD2F5 /* CPF_Custom_1TableViewCell.m in Sources */,
+				C3FCD3731C7B27E50042B471 /* Set_ViewController.m in Sources */,
+				C3FCD3611C7B271D0042B471 /* CPF_ProvideViewController.m in Sources */,
+				C3FCD3261C7B23BB0042B471 /* main.m in Sources */,
+				C3FCD36B1C7B27A60042B471 /* Combination_ProvideViewController.m in Sources */,
+				C3FCD3661C7B27320042B471 /* Trade_ProvideViewController.m in Sources */,
+				C37742A61C7F028C002B20C7 /* UITableView+UITableVIew_UITouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCD3361C7B23BC0042B471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCD33F1C7B23BC0042B471 /* _____APP_YTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FCD3411C7B23BC0042B471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FCD34A1C7B23BC0042B471 /* _____APP_YTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3FCD33C1C7B23BC0042B471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FCD3201C7B23BB0042B471 /* 房贷计算器APP－YT */;
+			targetProxy = C3FCD33B1C7B23BC0042B471 /* PBXContainerItemProxy */;
+		};
+		C3FCD3471C7B23BC0042B471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FCD3201C7B23BB0042B471 /* 房贷计算器APP－YT */;
+			targetProxy = C3FCD3461C7B23BC0042B471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3FCD32D1C7B23BC0042B471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FCD32E1C7B23BC0042B471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3FCD3321C7B23BC0042B471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FCD3331C7B23BC0042B471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3FCD34C1C7B23BC0042B471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shang zhuan (D6JB85J63T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shang zhuan (D6JB85J63T)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3FCD34D1C7B23BC0042B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: shang zhuan (Z2S27F9S86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: shang zhuan (Z2S27F9S86)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3FCD34F1C7B23BC0042B471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE74A4626DB49F983567EBD5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "房贷计算器APP－YT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yantao.YanTaoCalculating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f28cdf3e-aea9-4ab5-ac4c-dd169bd3bf6e";
+			};
+			name = Debug;
+		};
+		C3FCD3501C7B23BC0042B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D36CA3318D6E4FFB0613A9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: shang zhuan (Z2S27F9S86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: shang zhuan (Z2S27F9S86)";
+				INFOPLIST_FILE = "房贷计算器APP－YT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yantao.YanTaoCalculating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f28cdf3e-aea9-4ab5-ac4c-dd169bd3bf6e";
+			};
+			name = Release;
+		};
+		C3FCD3521C7B23BC0042B471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "房贷计算器APP－YTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yantao2.-----APP-YTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/房贷计算器APP－YT.app/房贷计算器APP－YT";
+			};
+			name = Debug;
+		};
+		C3FCD3531C7B23BC0042B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "房贷计算器APP－YTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yantao2.-----APP-YTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/房贷计算器APP－YT.app/房贷计算器APP－YT";
+			};
+			name = Release;
+		};
+		C3FCD3551C7B23BC0042B471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "房贷计算器APP－YTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yantao2.-----APP-YTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "房贷计算器APP－YT";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3FCD3561C7B23BC0042B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "房贷计算器APP－YTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yantao2.-----APP-YTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "房贷计算器APP－YT";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3FCD31C1C7B23BB0042B471 /* Build configuration list for PBXProject "房贷计算器APP－YT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCD34C1C7B23BC0042B471 /* Debug */,
+				C3FCD34D1C7B23BC0042B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FCD34E1C7B23BC0042B471 /* Build configuration list for PBXNativeTarget "房贷计算器APP－YT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCD34F1C7B23BC0042B471 /* Debug */,
+				C3FCD3501C7B23BC0042B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FCD3511C7B23BC0042B471 /* Build configuration list for PBXNativeTarget "房贷计算器APP－YTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCD3521C7B23BC0042B471 /* Debug */,
+				C3FCD3531C7B23BC0042B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FCD3541C7B23BC0042B471 /* Build configuration list for PBXNativeTarget "房贷计算器APP－YTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FCD3551C7B23BC0042B471 /* Debug */,
+				C3FCD3561C7B23BC0042B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3FCD3191C7B23BB0042B471 /* Project object */;
+}
